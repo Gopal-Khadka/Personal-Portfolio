@@ -31,6 +31,11 @@ const iconLinks: {
     href: "https://github.com/Gopal-Khadka",
     icon: "github-logo",
   },
+  {
+    label: "Medium",
+    href: "https://khadkagopal.medium.com",
+    icon: "medium-logo",
+  },
 ];
 
 /** Test if a link is pointing to the current page. */
@@ -84,7 +89,7 @@ const isCurrentPage = (href: string) => {
       <div class="socials">
         {
           iconLinks.map(({ href, icon, label }) => (
-            <a href={href} class="social">
+            <a href={href} class="social" target="_blank">
               <span class="sr-only">{label}</span>
               <Icon icon={icon} />
             </a>
