@@ -1,10 +1,11 @@
 {
-  "name": "@example/portfolio",
+  "name": "my-portfolio",
   "type": "module",
   "version": "0.0.1",
   "private": true,
   "scripts": {
     "dev": "astro dev",
+    "sync": "astro sync",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro"
